@@ -1,0 +1,9 @@
+aws_region                      = "ap-southeast-1"
+cluster_identifier              = "rds-aurora-console-to-code-2"
+database_name                   = "rds_aurora_console_to_code_2"
+master_username                 = "postgres"
+security_group_id               = "sg-09dfbfb45a551f09a"
+db_subnet_group_name            = "default-vpc-08b0f21ff827d6b88"
+port                            = 5432
+db_cluster_parameter_group_name = "default.aurora-postgresql15"
+backup_retention_period         = 7
